@@ -1,3 +1,4 @@
+import Inicio from "../views/Inicio.vue"
 import Perros from "../views/Perros.vue"
 import Bebidas from "../views/Bebidas.vue"
 import Pizzas from "../views/Pizzas.vue"
@@ -9,6 +10,10 @@ import Nosotros from "../views/Nosotros.vue"
 import { createRouter, createWebHistory } from "vue-router"
 
 const routes = [
+  {
+    path: "/",
+    component: Inicio
+  },
   {
     path: "/perros",
     component: Perros

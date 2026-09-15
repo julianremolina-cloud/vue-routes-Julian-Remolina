@@ -65,7 +65,7 @@
           <q-card class="full-height">
 
             <q-img
-              src="https://images.unsplash.com/photo-1612392062631-94dd858cba88"
+              src="https://images.unsplash.com/photo-1627059312946-b6339097ce1d"
               height="200px"
             />
 
@@ -98,7 +98,7 @@
           <q-card class="full-height">
 
             <q-img
-              src="https://images.unsplash.com/photo-1612392062631-94dd858cba88"
+              src="https://images.unsplash.com/photo-1541214113241-21578d2d9b62"
               height="200px"
             />
 
@@ -131,7 +131,7 @@
           <q-card class="full-height">
 
             <q-img
-              src="https://images.unsplash.com/photo-1612392062631-94dd858cba88"
+              src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a"
               height="200px"
             />
 

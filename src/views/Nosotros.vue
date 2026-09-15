@@ -148,8 +148,11 @@
 
 
       <!-- EQUIPO -->
-      <div class="text-h4 text-weight-bold q-mb-lg">
+      <div class="text-h4 text-weight-bold q-mb-md">
         Nuestro equipo
+      </div>
+      <div class="text-subtitle1 text-grey-8 q-mb-lg">
+        Conoce a las personas dedicadas que hacen posible cada experiencia y sabor en nuestro restaurante.
       </div>
 
 
@@ -158,20 +161,27 @@
         <!-- CHEF -->
         <div class="col-12 col-md-4">
 
-          <q-card>
+          <q-card class="team-card shadow-2 full-height bg-white">
 
-            <q-img
-              src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c"
-              height="300px"
-            />
+            <div class="team-img-container">
+              <q-img
+                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c"
+                fit="contain"
+                class="team-img"
+              />
+            </div>
 
             <q-card-section class="text-center">
 
-              <div class="text-h6">
+              <q-badge color="red-9" class="q-mb-sm text-caption">
+                Cocina & Parrilla
+              </q-badge>
+
+              <div class="text-h6 text-weight-bold">
                 Sergio Sarmiento
               </div>
 
-              <div class="text-grey-7">
+              <div class="text-grey-7 text-subtitle2">
                 Chef principal
               </div>
 
@@ -185,20 +195,27 @@
         <!-- CAJERO -->
         <div class="col-12 col-md-4">
 
-          <q-card>
+          <q-card class="team-card shadow-2 full-height bg-white">
 
-            <q-img
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
-              height="300px"
-            />
+            <div class="team-img-container">
+              <q-img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+                fit="contain"
+                class="team-img"
+              />
+            </div>
 
             <q-card-section class="text-center">
 
-              <div class="text-h6">
+              <q-badge color="orange-9" class="q-mb-sm text-caption">
+                Atención al Cliente
+              </q-badge>
+
+              <div class="text-h6 text-weight-bold">
                 Juan Diego Gomez
               </div>
 
-              <div class="text-grey-7">
+              <div class="text-grey-7 text-subtitle2">
                 Cajero
               </div>
 
@@ -212,20 +229,27 @@
         <!-- DOMICILIARIO -->
         <div class="col-12 col-md-4">
 
-          <q-card>
+          <q-card class="team-card shadow-2 full-height bg-white">
 
-            <q-img
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
-              height="300px"
-            />
+            <div class="team-img-container">
+              <q-img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+                fit="contain"
+                class="team-img"
+              />
+            </div>
 
             <q-card-section class="text-center">
 
-              <div class="text-h6">
+              <q-badge color="positive" class="q-mb-sm text-caption">
+                Logística & Envíos
+              </q-badge>
+
+              <div class="text-h6 text-weight-bold">
                 Camilo Aguirre
               </div>
 
-              <div class="text-grey-7">
+              <div class="text-grey-7 text-subtitle2">
                 Domiciliario
               </div>
 
@@ -247,6 +271,32 @@
 
 .banner {
   height: 280px;
+}
+
+.team-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.team-img-container {
+  background: linear-gradient(180deg, #f5f6f8 0%, #eaedf1 100%);
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.team-img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 </style>
